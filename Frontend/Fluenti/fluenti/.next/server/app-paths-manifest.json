@@ -1,0 +1,9 @@
+{
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/(home-one)/page": "app/(home-one)/page.js",
+  "/(layout-eleven)/contact-us/page": "app/(layout-eleven)/contact-us/page.js",
+  "/multi-page/home-one/page": "app/multi-page/home-one/page.js",
+  "/(layout-eleven)/about-us/page": "app/(layout-eleven)/about-us/page.js",
+  "/(layout-eleven)/blog/page": "app/(layout-eleven)/blog/page.js",
+  "/(layout-eleven)/pricing/page": "app/(layout-eleven)/pricing/page.js"
+}
