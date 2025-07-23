@@ -1,23 +1,25 @@
-import Cta from "@/components/home/home-one/cta";
-import HeroSection from "@/components/home/home-one/hero";
-import Integrations from "@/components/home/home-one/integrations";
-import LogoSlider from "@/components/home/home-one/logo-slider";
-import PricePlan from "@/components/home/home-one/price-plan";
-import Services from "@/components/home/home-one/services";
-import Testimonial from "@/components/home/home-one/testimonial";
-import WhyChooseUs from "@/components/home/home-one/why-choose-us";
+import AboutOne from "@/components/home/home-seven/about-one";
+import AboutThree from "@/components/home/home-seven/about-three/AboutThree";
+import AboutTwo from "@/components/home/home-seven/about-two/AboutTwo";
+import Blogs from "@/components/home/home-seven/blogs";
+import Features from "@/components/home/home-seven/features";
+import Hero from "@/components/home/home-seven/hero";
+import Integrations from "@/components/home/home-seven/integrations";
+import Services from "@/components/home/home-seven/services";
+import Testimonials from "@/components/home/home-seven/testimonials";
 
 function HomeOne() {
 	return (
 		<>
-			<HeroSection />
-			<LogoSlider />
+			<Hero />
+			<Features />
+			<AboutOne />
 			<Services />
-			<WhyChooseUs />
-			<PricePlan />
+			<AboutTwo />
+			<AboutThree />
+			<Testimonials />
 			<Integrations />
-			<Testimonial />
-			<Cta />
+			<Blogs />
 		</>
 	);
 }
